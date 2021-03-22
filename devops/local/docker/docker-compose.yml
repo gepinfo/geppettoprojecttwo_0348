@@ -79,7 +79,7 @@ services:
     image: newfeatures-0348
     container_name: newfeatures-0348
     ports: 
-      - 8005:8005
+      - 8006:8006
     env_file: .env
     depends_on:
       - mongo
