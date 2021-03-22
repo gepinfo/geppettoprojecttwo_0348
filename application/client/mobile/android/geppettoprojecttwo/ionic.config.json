@@ -1,0 +1,7 @@
+{
+  "name": "geppettoprojecttwo",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

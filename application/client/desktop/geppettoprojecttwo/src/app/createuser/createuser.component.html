@@ -1,0 +1,14 @@
+<h2 class="screen-align">Createuser</h2>
+<div id="template-icp9" class="row">
+    <div id="template-i0cc" class="cell">
+        <label id="template-i0rz" class="label">Name</label>
+        <input id="template-i03h" placeholder="Enter name" [(ngModel)]="newen.name"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+    </div>
+    <div id="template-i5lk" class="cell">
+        <label id="template-i6fg" class="label">Email</label>
+        <input id="template-iios" placeholder="Enter email" [(ngModel)]="newen.email"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+    </div>
+</div>
+<button id="template-iiky" (click)="GpCreate()" class="button btn btn-primary">Create</button>
